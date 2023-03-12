@@ -1,0 +1,22 @@
+* {
+    background-color: #18435A;
+    color: #FFF8F0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main-container {
+    border: 3px solid #7796CB;
+    margin: auto;
+    width:50%;
+    padding: 10px;   
+}
+
+
+.markdown-content {
+    margin: auto;
+    padding: 10px;
+}
+
+code {
+    font-family:monospace;
+}
