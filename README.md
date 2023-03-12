@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4bbd2467-c1eb-4d45-a4a0-978b89db005c/deploy-status)](https://app.netlify.com/sites/whimsical-horse-945829/deploys)
+
 # Markdown Blog
 
 This is a small and easy Flask setup for parsing markdown files as a webpage.
