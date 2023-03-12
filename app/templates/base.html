@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>{{ blog_title }}</title>
+        <title>{{ content['blog_title'] }}</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
@@ -17,7 +17,7 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <div class="main-container">
-            <h1>Willkommen bei Uli's kleinem Markdown Blog</h1>
+            <h1>{{ content['headline'] }}</h1>
 
                 <div class="toc">
                     <h2>Table of Contents</h2>

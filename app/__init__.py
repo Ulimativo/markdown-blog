@@ -7,6 +7,7 @@ import os
 from dotenv import dotenv_values
 config=dotenv_values(".env") 
 BLOG_TITLE=config['BLOG_TITLE']
+HEADLINE=config['HEADLINE']
 MARKDOWN_FOLDER=config['MARKDOWN_FOLDER']
 INDEX_FILE=config['INDEX_FILE']
 
@@ -36,6 +37,7 @@ def index(md_file=None):
 
     content= {
         'blog_title': BLOG_TITLE,
+        'headline': HEADLINE,
         'toc': gen_toc(),
         'md_string':md_string
     }
