@@ -8,7 +8,7 @@ Docker: ![Docker Image Size](https://img.shields.io/docker/image-size/ulimativ/m
 This is a small and easy Flask setup for parsing markdown files as a webpage.
 Depends on minimalist styling and flask configuration, basically reads out a folder of md files.
 
-Currently running as development server
+Using Waitress as WSGI-Server.
 
 ## Usage
 
@@ -43,5 +43,5 @@ services:
 
 ## TO-DOs
 
-* Table-of-Contents: ~~List all Markdown Files in given folder, including links~~
+* ~~Table-of-Contents: List all Markdown Files in given folder, including links~~
 * ~~Move from development to production server~~
