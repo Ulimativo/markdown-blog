@@ -1,16 +1,10 @@
 
-<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white") />
-
-![image] (https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-
-![image] ({https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue})
-
-![image] ({https://img.shields.io/badge/Alpine_Linux-0D597F?style=for-the-badge&logo=alpine-linux&logoColor=white})
-
-![image] ({https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white})
 
 
 # Markdown Blog
+
+![Docker Image Size](https://img.shields.io/docker/image-size/ulimativ/markdown-blog) ![DockerPulls](https://img.shields.io/docker/pulls/ulimativ/markdown-blog)
+
 
 This is a small and easy Flask setup for parsing markdown files as a webpage.
 Depends on minimalist styling and flask configuration, basically reads out a folder of md files.
