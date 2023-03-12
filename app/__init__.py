@@ -1,15 +1,14 @@
 from flask import Flask, render_template
+import os
 import markdown
 import markdown.extensions.fenced_code
-
-import os
-
 from dotenv import dotenv_values
 config=dotenv_values(".env") 
 BLOG_TITLE=config['BLOG_TITLE']
 HEADLINE=config['HEADLINE']
 MARKDOWN_FOLDER=config['MARKDOWN_FOLDER']
 INDEX_FILE=config['INDEX_FILE']
+
 
 app = Flask(__name__)
 
@@ -31,15 +30,12 @@ def gen_toc():
 
 @app.route("/<md_file>")
 @app.route("/")
-def index(md_file=None):
- 
-    md_string=read_file(md_file)
-
+def index(md_file=INDEX_FILE):
     content= {
         'blog_title': BLOG_TITLE,
         'headline': HEADLINE,
         'toc': gen_toc(),
-        'md_string':md_string
+        'md_string':read_file(md_file)
     }
     return render_template('base.html', content=content)
 

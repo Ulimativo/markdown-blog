@@ -7,6 +7,5 @@ depends on minimal styling and flask configuration, basically reads out a folder
 
 ## TO-DOs
 
-* Aufzählung aller Markdown Files in bestimmtem Ordner, mit Verlinkung
-* können einzeln angewählt werden
-* zusätzliches CSS-Styling
+* Table-of-Contents: ~~List all Markdown Files in given folder, including links~~
+
