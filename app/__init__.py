@@ -40,4 +40,4 @@ def index(md_file=INDEX_FILE):
     return render_template('base.html', content=content)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host='0.0.0.0', debug=False)

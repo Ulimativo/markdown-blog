@@ -1,7 +1,7 @@
 # Markdown Blog
 
 This is a small and easy Flask setup for parsing markdown files as a webpage.
-Depends on minimal styling and flask configuration, basically reads out a folder of md files.
+Depends on minimalist styling and flask configuration, basically reads out a folder of md files.
 
 Currently running as development server
 
