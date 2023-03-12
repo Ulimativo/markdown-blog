@@ -1,3 +1,5 @@
-Following along this tutorial:
-https://www.digitalocean.com/community/tutorials/how-to-use-python-markdown-to-convert-markdown-text-to-html
+# Markdown Blog
 
+This is a small and easy Flask setup for parsing markdown files as a webpage.
+
+depends on minimal styling and flask configuration, basically reads out a folder of md files.
